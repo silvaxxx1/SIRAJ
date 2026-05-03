@@ -1,0 +1,49 @@
+[project]
+name = "rag-app"
+version = "3.0.0"
+description = "Production-grade enterprise RAG system — on-prem, multilingual, hybrid retrieval"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # Web framework
+    "fastapi>=0.116.1",
+    "fastapi-health>=0.4.0",
+    "uvicorn[standard]>=0.35.0",
+    "python-multipart>=0.0.20",
+    "aiofiles>=24.1.0",
+
+    # Config & settings
+    "pydantic-settings>=2.10.1",
+    "python-dotenv>=1.1.1",
+
+    # Database — Postgres + async
+    "sqlalchemy>=2.0.42",
+    "alembic>=1.16.5",
+    "asyncpg>=0.30.0",
+    "psycopg2-binary>=2.9.10",
+    "pgvector>=0.4.1",
+
+    # Vector DBs
+    "qdrant-client>=1.15.1",
+
+    # LLM providers
+    "openai>=1.99.1",
+    "cohere>=5.16.2",
+
+    # Embeddings
+    "sentence-transformers>=5.1.0",
+
+    # Document parsing & chunking
+    "pymupdf>=1.26.3",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "nltk>=3.9.1",
+
+    # Observability
+    "prometheus-client>=0.23.1",
+    "starlette-exporter>=0.23.0",
+
+    # Linting / formatting (dev)
+    "ruff>=0.12.10",
+    "black>=25.1.0",
+]
