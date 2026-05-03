@@ -1,5 +1,5 @@
 [project]
-name = "rag-app"
+name = "siraj"
 version = "3.0.0"
 description = "Production-grade enterprise RAG system — on-prem, multilingual, hybrid retrieval"
 readme = "README.md"
