@@ -35,8 +35,8 @@
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/silvaxxx1/RagApp.git
-cd RagApp
+git clone https://github.com/silvaxxx1/SIRAJ.git
+cd SIRAJ
 uv sync
 ```
 
