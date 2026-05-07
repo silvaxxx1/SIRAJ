@@ -1,3 +1,24 @@
+# Root and app env files
 .env
 src/.env
+
+# Docker service env files (contain passwords — never commit)
+docker/env/.env.app
+docker/env/.env.postgres
+docker/env/.env.grafana
+docker/env/.env.postgres-exporter
+
+# uv / Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
 CLAUDE.md
+PRIVATE.md
